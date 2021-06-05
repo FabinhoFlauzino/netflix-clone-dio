@@ -23,7 +23,7 @@ button{
     border: none;
     padding: 12px 25px;
     border-radius: 3px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -63,7 +63,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 18px;
-    background: linear-gradient(125deg,rgba(20,20,20,1), rgba(20,20,20,.1)), url(../img/Lucifer.jpg) no-repeat;
+    background: linear-gradient(rgba(20,20,20,.01), rgba(20,20,20,.1)), url(../img/download.webp) no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -72,7 +72,7 @@ header nav a:hover{
 }
 
 .filme-principal img{
-    width: 60%;
+    width: 65%;
 }
 
 main .container{
@@ -81,6 +81,7 @@ main .container{
     justify-content: center;
     align-items: flex-start;
     width: 60%;
+    margin-top: -90px;
 }
 
 .filme-principal .container .temporada{
@@ -96,8 +97,8 @@ main .container{
 
 .filme-principal .container .descricao{
     margin: 20px 0;
-    width: 70%;
-    font-size: 18px;
+    width: 65%;
+    font-size: 21px;
     line-height: 1.5;
     font-weight: 600;
 }
@@ -121,4 +122,21 @@ button.informacao i{
 
 button.informacao:hover{
     background-color:rgba(250,249,249,.1);
+}
+
+.carrosel-filmes{
+    margin-top: -120px;
+}
+
+.carrosel-filmes p{
+    margin: 20px 60px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
 }
