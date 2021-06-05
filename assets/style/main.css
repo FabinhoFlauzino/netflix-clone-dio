@@ -1,0 +1,124 @@
+:root{
+    --red: #E50914;
+    --black: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #dfdfdf;
+}
+
+body{
+    background: var(--black);
+    font-family: Arial, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient(var(--black), rgba(20,20,20,.6));
+}
+
+button{
+    border: none;
+    padding: 12px 25px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button + button{
+    margin-left: 10px;
+}
+
+i {
+    margin-right: 8px;
+    color: #141414;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+header .logo{
+    width: 95px;
+    cursor: pointer;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #faf9f9;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #dfdfdf;
+}
+
+/* filme principal*/
+
+.filme-principal{
+    font-size: 18px;
+    background: linear-gradient(125deg,rgba(20,20,20,1), rgba(20,20,20,.1)), url(../img/Lucifer.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    padding: 0 60px;
+    margin-top: -71px;
+}
+
+.filme-principal img{
+    width: 60%;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.filme-principal .container .temporada{
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.filme-principal .container .temporada i{
+    color: #E50914;
+}
+
+.filme-principal .container .descricao{
+    margin: 20px 0;
+    width: 70%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+button.assistir{
+    background-color: #faf9f9;
+    color: #141414;
+}
+
+button.assistir:hover{
+    background-color: rgba(250,249,249,.8);
+}
+
+button.informacao{
+    background-color:rgba(250,249,249,.2);
+}
+
+button.informacao i{
+    color: #faf9f9;
+}
+
+button.informacao:hover{
+    background-color:rgba(250,249,249,.1);
+}
