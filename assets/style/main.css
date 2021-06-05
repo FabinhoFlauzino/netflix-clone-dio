@@ -69,6 +69,7 @@ header nav a:hover{
     display: flex;
     padding: 0 60px;
     margin-top: -71px;
+    background-position: 100%;
 }
 
 .filme-principal img{
