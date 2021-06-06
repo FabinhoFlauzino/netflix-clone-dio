@@ -16,9 +16,9 @@
 <body>
     <header>
         <div class="container">
-            <a href="#"><img src="assets/img/logo.png" alt="Logo Netflix" class="logo"></a>
+            <a href="index.html"><img src="assets/img/logo.png" alt="Logo Netflix" class="logo"></a>
             <nav>
-                <a href="#">Inicio</a>
+                <a href="index.html">Inicio</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentários</a>
@@ -34,8 +34,8 @@
                 <p class="descricao">Entediado com a vida nas trevas, o diabo se muda para Los Angeles, 
                     abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.</p>
                 <div class="botao-info">
-                    <button href="#" role="button" class="assistir"><i class="fas fa-play"></i> Assistir</button>
-                    <button href="#" role="button" class="informacao"><i class="fa fa-info-circle"></i> Mais informações</button>
+                    <button role="button" class="assistir"><i class="fas fa-play"></i> Assistir</button>
+                    <button role="button" class="informacao"><i class="fa fa-info-circle"></i> Mais informações</button>
                 </div>
                 
             </div>
@@ -99,6 +99,42 @@
             </div>
             <div class="item">
                 <img src="assets/img/mini17.jpg" class="box-filme" alt="Minatura da capa do filme">
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal close">
+        <div class="modal-content">
+            <div class="modal-header">
+                <video playsinline autoplay muted controls loop poster="assets/img/download.webp" id="bgvid">
+                    <source src="assets/img/lucifer.jpg" type="video/webm">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <img src="assets/img/nome-seirado.webp" alt="Imagem da capa do seriado">
+                <a href="https://www.youtube.com/watch?v=6yIeotFLFcs" role="button" class="assistir" target="_blank"><i class="fas fa-play"></i> Assistir</a>
+                <div class="icone-redondo"><i class="fas fa-plus add"></i></div>
+                <div class="icone-redondo"><i class="far fa-thumbs-up curtir"></i></div>
+                <div class="icone-redondo"><i class="far fa-thumbs-down descurtir"></i></div>
+            </div>
+
+            <div class="modal-body">
+                <div class="info-telespectador">
+                    <p><span>98% relevante</span> 2021 <span>16</span> 5 Temporadas </p>
+                    <p class="temporada"><i class="fas fa-trophy"></i> Brasil: top 1 de hoje</p>
+                    <p class="descricao">Entediado com a vida nas trevas, o diabo se muda para Los Angeles, 
+                        abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.</p>
+                </div>
+                <div class="info-elenco">
+                    <p><span>Elenco: </span>Tom Ellis, Lauren German, Kevin Alejandro, mais</p>
+                    <p><span>Gêneros: </span>Séries policiais, Séries de fantasia, Séries baseadas em HQ</p>
+                    <p><span>Cenas e momentos: </span>Irreverentes, Empolgantes</p>
+                    <p><span>Classificação etária: </span> Para maiores de 16 anos</p>
+                </div>
+                
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn">Fechar</button>
             </div>
         </div>
     </div>
